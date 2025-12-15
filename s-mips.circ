@@ -2079,6 +2079,10 @@
       <a name="width" val="32"/>
       <a name="label" val="Data_RAM"/>
     </comp>
+    <comp lib="0" loc="(980,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Reg(EN)"/>
+    </comp>
     <comp lib="0" loc="(790,550)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CLK"/>
@@ -2220,10 +2224,6 @@
       <a name="width" val="32"/>
       <a name="label" val="Data_RAM"/>
     </comp>
-    <comp lib="0" loc="(890,530)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="RW"/>
-    </comp>
     <comp lib="0" loc="(650,670)" name="Tunnel">
       <a name="label" val="Write Data"/>
     </comp>
@@ -2234,7 +2234,7 @@
     </comp>
     <comp lib="0" loc="(980,220)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="START"/>
+      <a name="label" val="Start(EN)"/>
     </comp>
     <comp lib="0" loc="(400,210)" name="Pin">
       <a name="output" val="true"/>
@@ -2340,6 +2340,10 @@
     <comp lib="0" loc="(1130,470)" name="Tunnel">
       <a name="label" val="RW"/>
     </comp>
+    <comp lib="0" loc="(890,530)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Write Data"/>
+    </comp>
     <comp lib="0" loc="(420,250)" name="Tunnel">
       <a name="width" val="7"/>
       <a name="label" val="TTY DATA"/>
@@ -2433,10 +2437,6 @@
     <comp lib="0" loc="(1100,220)" name="Tunnel">
       <a name="width" val="6"/>
       <a name="label" val="OP_Code"/>
-    </comp>
-    <comp lib="0" loc="(980,260)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="R/W"/>
     </comp>
     <comp lib="0" loc="(1130,440)" name="Tunnel">
       <a name="width" val="32"/>
@@ -2539,6 +2539,10 @@
     </comp>
     <comp lib="0" loc="(750,60)" name="Constant">
       <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1130,620)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="RAM A"/>
     </comp>
     <comp lib="6" loc="(176,31)" name="Text">
       <a name="text" val="RAM ADDRESS"/>
